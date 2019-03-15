@@ -16,7 +16,7 @@ if(session.getAttribute("user")==null){
    // response.sendRedirect("login");
 }
 %>
-Welcome in friend!!!
+<a href="/getProducts" >store Product</a>
 <a href="/logout">Logout</a>
 </body>
 </html>
